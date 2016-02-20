@@ -21,7 +21,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Mission Impossible</a></h1>
+						<h1><a href="index.html">Mission Possible</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -46,7 +46,7 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>Mission Impossible</h2>
+							<h2>Mission Possible</h2>
 							<p>An 18-549 Capstone Project<br />
 							by Team 16<br /></p>
 							<!--<ul class="actions">
@@ -61,34 +61,44 @@
 						<div class="inner">
 							<header class="major">
 								<h2>Inspiration</h2>
-								<p>A scene from the movie Mission Impossible: Rogue Nation</p>
 							</header>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/0iZ-nQ4yFn4" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</section>
 					
 				<!-- Concept -->
 					<section id="concept" class="wrapper style3 special">
-						<section>
-							<div class="image"><img src="images/gaitgraph.jpg" alt="" /></div><div class="content">
+					  <div class="inner">
+						  
+						  <header class="major">
 								<h2>Concept</h2>
 								<p>Every person’s gait is unique; from posture to the speed, it is almost impossible to replicate another person’s gait. It is also very difficult for someone to teach another to replicate their gait. For our project, we intend on taking advantage of this uniqueness to build a strong authentication system.</p>
-							</div>
+							</header>
+						  </div>
+					  <div class="image"><img src="images/humangait.bmp" alt="" /></div><div class="content">
 						</section>
 					</section>
 					
 				<!-- Motivation -->
 					<section id="Motivation" class="wrapper style4 special">
 						<div class="inner">
-							<header>
-								<h2>Motivation</h2>
-								<p>The current authentication systems, like text passwords, facial recognition and voice recognition are not absolute. Exploring gait recognition will bring us closer to the security problem.</p>
+							<header class="major">
+							  <h2>Motivation</h2>
+							  <p>Explore the next level of security that allows mass non-invasive recognition.</p>
 							</header>
 						</div>
+						<div class="image"><img src="images/walkingcrowd.jpg" alt="" height="300" width="600"/></div>
 					</section>
 					
 				<!-- Competitve Analysis -->
 					<section id="companalysis" class="wrapper alt style2">
-						<center><h2>Competitive Analysis</h2></center>
+						<div class = "inner">
+						  <header class="major">
+						  <center>
+						  <h2>Competitive Analysis</h2>
+						  </center>
+						</header>
+						  </div>
 						<section class="spotlight">
 							<div class="image"><img src="images/gaitgraph2.jpg" alt="" /></div><div class="content">
 								<h2>GSI</h2>
@@ -110,7 +120,7 @@
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/gaitgraph.jpg" alt="" /></div><div class="content">
+							<div class="image"><img src="images/mitgait.png" alt="" /></div><div class="content">
 								<h2>MIT</h2>
 								<ol>
 									<li>Given that humans can identify others by their manner of walking, there had been some computer vision algorithms developed for people identification and activity classification
@@ -126,7 +136,7 @@
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/gitgait.gif" alt="" /></div><div class="content">
+							<div class="image"><img src="images/gaitgraph3.jpeg" alt="" /></div><div class="content">
 								<h2>Georgia Tech</h2>
 								<ol>
 								
@@ -153,7 +163,7 @@
 							</header>
 							<div class="row" id="bios">
 							<div class="3u">
-							  <div class="image"><img class= "pimage" src="images/kashish.png" alt="" /></div>
+							  <div class="image"><img class= "pimage" src="images/kashish.jpg" alt="" /></div>
 							  <h3>Kashish Mittal</h3>
 							  <p>Machine Learning Scientist</p>
 							  <!--<a href="#" target="blank" class="button style3">Personal Site</a>-->
@@ -227,15 +237,21 @@
 <!-- Requirements -->
 					<section id="requirements" class="wrapper alt style2">
 						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+							<div class="image"><img src="images/pic01.png" alt="" /></div><div class="content">
 								<h2>Requirements: Functional</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+								<ul>
+								  <li>Camera must be able to pick out the distinct points on the subject</li>
+								  <li>Accelerometer/gyroscope must be able to pick up data and transmit them to the processing unit</li>
+								</ul>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
 								<h2>Requirements: Non Functional</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+								<ul>
+								  <li>The camera data must be clear and distinct enough that the computer can establish the distinct points without confusion or mistakes</li>
+								  <li>The accelerometer/gyroscope data must be reasonable enough so that it does not jump around with random values</li>
+								  <li>The collective data from the camera and the accelerometer/gyroscope must establish a pattern that is distinct to the subject</li>
 							</div>
 						</section>
 					</section>
