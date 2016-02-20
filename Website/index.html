@@ -34,8 +34,8 @@
 											<li><a href="#inspiration">Motivation</a></li>
 											<li><a href="#companalysis">Competitive Analysis</a></li>
 											<li><a href="#team">Team</a></li>
-											<li><a href="#requirements">Requirements</a></li>
 											<li><a href="#components">Components</a></li>
+											<li><a href="#requirements">Requirements</a></li>
 										</ul>
 									</div>
 								</li>
@@ -67,11 +67,11 @@
 					</section>
 					
 				<!-- Concept -->
-					<section id="concept" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+					<section id="concept" class="wrapper style3 special">
+						<section>
+							<div class="image"><img src="images/gaitgraph.jpg" alt="" /></div><div class="content">
 								<h2>Concept</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+								<p>Every person’s gait is unique; from posture to the speed, it is almost impossible to replicate another person’s gait. It is also very difficult for someone to teach another to replicate their gait. For our project, we intend on taking advantage of this uniqueness to build a strong authentication system.</p>
 							</div>
 						</section>
 					</section>
@@ -81,37 +81,66 @@
 						<div class="inner">
 							<header>
 								<h2>Motivation</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+								<p>The current authentication systems, like text passwords, facial recognition and voice recognition are not absolute. Exploring gait recognition will bring us closer to the security problem.</p>
 							</header>
 						</div>
 					</section>
 					
 				<!-- Competitve Analysis -->
-					<section id="companalysis" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Competitive Analysis</h2>
-								<p></p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>GSI</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>Georgia Tech</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>MIT</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
-						</div>
+					<section id="companalysis" class="wrapper alt style2">
+						<center><h2>Competitive Analysis</h2></center>
+						<section class="spotlight">
+							<div class="image"><img src="images/gaitgraph2.jpg" alt="" /></div><div class="content">
+								<h2>GSI</h2>
+								<ol>
+									<li>They considered there are two major uses of gait recognition:
+										<ul>
+											<li>Gait recognition is non intrusive and could be used in a distance which might contribute to identifying criminals</li>
+											<li>Gait recognition also has a medical application which could aid doctors and trainers identify changes in walking pattern</li>
+										</ul>
+									</li>
+									<li>No one has yet came up with a model that is both accurate and marketable</li>
+									<li>There are two main approaches of to gait recognition research
+										<ul>
+											<li>Automatic analysis of video imagery from multiple cameras</li>
+											<li>Radar technology to record gait cycle</li>
+										</ul>
+									</li>
+								</ol>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/gaitgraph.jpg" alt="" /></div><div class="content">
+								<h2>MIT</h2>
+								<ol>
+									<li>Given that humans can identify others by their manner of walking, there had been some computer vision algorithms developed for people identification and activity classification
+									</li>
+									<li>Derive the silhouette of the person walking:
+										<ul>
+											<li>Use background subtraction algorithm to single out the figure</li>
+											<li>Ignore foreground color to remove the effects of clothing</li>
+											<li>Use only scale-normalized binary silhouette</li>
+										</ul></li>
+									<li>Use the silhouette to construct a set of moment related figures and those are used to identify a person</li>
+								</ol>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/gaitgraph.jpg" alt="" /></div><div class="content">
+								<h2>Georgia Tech</h2>
+								<ol>
+									<li>Given that humans can identify others by their manner of walking, there had been some computer vision algorithms developed for people identification and activity classification
+									</li>
+									<li>Derive the silhouette of the person walking:
+										<ul>
+											<li>Use background subtraction algorithm to single out the figure</li>
+											<li>Ignore foreground color to remove the effects of clothing</li>
+											<li>Use only scale-normalized binary silhouette</li>
+										</ul></li>
+									<li>Use the silhouette to construct a set of moment related figures and those are used to identify a person</li>
+								</ol>
+							</div>
+						</section>
 					</section>
 
 				<!-- Team -->
@@ -121,34 +150,41 @@
 								<h2>Team</h2>
 								<p>The Brave Souls who took on the impossible</p>
 							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul>
+							<div class="row" id="bios">
+							<div class="3u">
+							  <div class="image"><img class= "pimage" src="images/kashish.png" alt="" /></div>
+							  <h3>Kashish Mittal</h3>
+							  <p>Machine Learning Scientist</p>
+							  <!--<a href="#" target="blank" class="button style3">Personal Site</a>-->
+							</div>
+							<div class="3u">
+							  <div class="image"><img class= "pimage" src="images/jes.jpg" alt="" /></div>
+							  <h3>Jessica Stayton</h3>
+							  <p>Hardware Guru</p>
+							  <!--<a href="#" target="blank" class="button style3">Personal Site</a>-->
+							</div>
+							<div class="3u">
+							  <div class="image"><img class= "pimage" src="images/jing.jpg" alt="" /></div>
+							  <h3>JingXu Yang</h3>
+							  <p>Software Developer</p>
+							  <!--<a href="#" target="blank" class="button style3">Personal Site</a>-->
+							</div>
+							<div class="3u">
+							  <div class="image"><img class= "pimage" src="images/VrutiS.jpg" alt="" /></div>
+							  <h3>Vruti Sivakumaran</h3>
+							  <p>Software Developer</p>
+							  <!--<a href="#" target="blank" class="button style3">Personal Site</a>-->
+							</div>
+						  </div>
 						</div>
 					</section>
 				
-				<!-- Requirements -->
-					<section id="requirements" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Requirements: Functional</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Requirements: Non Functional</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-					</section>
+
 					
 				
 
 				<!-- Components -->
-					<section id="components" class="wrapper style4 special">
+					<section id="components" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
 								<h2>Components</h2>
@@ -186,9 +222,25 @@
 							</ul>
 						</div>
 					</section>
+					
+<!-- Requirements -->
+					<section id="requirements" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+								<h2>Requirements: Functional</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+								<h2>Requirements: Non Functional</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+					</section>
 
 				<!-- CTA -->
-					<section id="cta" class="wrapper style3 special">
+					<section id="cta" class="wrapper style4 special">
 						<div class="inner">
 							<header>
 								<h2>The End</h2>
